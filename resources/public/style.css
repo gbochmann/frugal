@@ -2,3 +2,10 @@
   color: grey;
   text-decoration: line-through;
 }
+<<<<<<< HEAD
+=======
+
+.right {
+  float: right;
+}
+>>>>>>> d1dafe6... switch to clj tools

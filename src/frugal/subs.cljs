@@ -22,3 +22,13 @@
                        (str/includes?
                         (str/lower-case (:label item)) (str/lower-case create-item))))
           (:shopping-list db))))
+
+(rf/reg-sub
+ ::last-bought
+ (fn [db]
+   (last (:buying-history db))))
+
+(rf/reg-sub
+ ::edit-mode?
+ (fn [db]
+   (:edit-mode? db)))

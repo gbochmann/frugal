@@ -16,3 +16,6 @@
 /.shadow-cljs/
 
 /dev/
+
+.cpcache
+.rebel_readline_history

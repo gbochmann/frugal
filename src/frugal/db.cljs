@@ -5,4 +5,6 @@
                    {:label "Käse" :id "Käse" :bought? false}
                    {:label "Gurke" :id "Gurke" :bought? false}
                    {:label "Waschmittel" :id "Waschmittel" :bought? false}]
-   :create-item ""})
+   :create-item ""
+   :buying-history []
+   :edit-mode? true})
